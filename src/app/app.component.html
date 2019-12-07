@@ -1,8 +1,9 @@
-<app-header></app-header>
+<app-header  (pageSelected)="onPageSelected($event)"></app-header>
 <div class="container bg-success">
   <div class="row">
     <div class="col-xs-12" style="margin-bottom: 20px">
-      <app-recipes></app-recipes>
+      <app-recipes *ngIf="currentPage === 'recipe'"></app-recipes>
+      <app-shopping-list *ngIf="currentPage === 'shopping'"></app-shopping-list>
     </div>
   </div>
 </div>
