@@ -11,7 +11,19 @@ export class RecipeListComponent implements OnInit {
     new Recipe('Grunt pancake',
       'Top rank pancake for sunday breakfast',
       'https://cdn.pixabay.com/photo/2018/11/05/12/42/food-3796017_960_720.jpg'
-    )
+    ),
+    new Recipe('Grunt pancake',
+      'Top rank pancake for sunday breakfast',
+      'https://cdn.pixabay.com/photo/2018/11/05/12/42/food-3796017_960_720.jpg'
+    ),
+    new Recipe('Grunt pancake',
+      'Top rank pancake for sunday breakfast',
+      'https://cdn.pixabay.com/photo/2018/11/05/12/42/food-3796017_960_720.jpg'
+    ),
+    new Recipe('Grunt pancake',
+      'Top rank pancake for sunday breakfast',
+      'https://cdn.pixabay.com/photo/2018/11/05/12/42/food-3796017_960_720.jpg'
+    ),
   ];
 
   constructor() { }
